@@ -1,0 +1,48 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    
+    int Year, AGE;
+    string Last_name, First_name, Middle_name, Program;
+    long ussn;
+    
+    cout << " AMA Stusdent Portal" << "\n";
+    cout << "__________________________________________________________\n";
+    cout << " Please fill in the space" << "\n";
+    
+    cout << " USSN:";
+    cin >> ussn;
+    
+    cout << " Last name:";
+    cin >> Last_name;
+    
+    cout << " First name:";
+    cin >>  First_name;
+    
+    cout << " Middle name:";
+    cin >> Middle_name;
+    
+    cout << " AGE:";
+    cin >> AGE;
+    
+    cout << " Program:";
+    cin >> Program;
+    
+    cout << " Year:";
+    cin >> Year;
+    
+    cout << "_________________________________________________\n";
+    
+    cout << " student information" << "\n";
+    cout << "USSN:" << ussn << "\n";
+    cout << "Last_name:" << Last_name  << "\n";
+    cout << "First_name:" << First_name  << "\n";
+    cout << "Middle_name:" << Middle_name  << "\n";
+    cout << "AGE:" << AGE << "\n";
+    cout << "Program:" << Program << "\n";
+    cout << "Year:" << Year << "\n";
+    cout << "Welcome " << First_name << " " << 
+      cout << "__________________________________________________________\n";
+    return 0;
+}
