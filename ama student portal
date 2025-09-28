@@ -1,48 +1,51 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
+
 using namespace std;
+
 int main() {
     
     int Year, AGE;
     string Last_name, First_name, Middle_name, Program;
     long ussn;
     
-    cout << " AMA Stusdent Portal" << "\n";
-    cout << "__________________________________________________________\n";
-    cout << " Please fill in the space" << "\n";
-    
-    cout << " USSN:";
+    cout << "\n__________________________________________________________\n";
+    cout << "\n                AMA Stusdent Portal \n";
+    cout << "\n__________________________________________________________\n";
+    cout << "\n          Please fill in the information below \n";
+    cout << "\n__________________________________________________________\n";
+    cout << "\nUSSN:";
     cin >> ussn;
-    
-    cout << " Last name:";
+    cout << "\n__________________________________________________________\n";
+    cout << "\nLast name:";
     cin >> Last_name;
-    
-    cout << " First name:";
+    cout << "\n__________________________________________________________\n";
+    cout << "\nFirst name:";
     cin >>  First_name;
-    
-    cout << " Middle name:";
+    cout << "\n__________________________________________________________\n";
+    cout << "\nMiddle name:";
     cin >> Middle_name;
-    
-    cout << " AGE:";
+    cout << "\n__________________________________________________________\n";
+    cout << "\nAGE:";
     cin >> AGE;
-    
-    cout << " Program:";
+    cout << "__________________________________________________________\n";
+    cout << "\nProgram:";
     cin >> Program;
-    
-    cout << " Year:";
+    cout << "\n__________________________________________________________\n";
+    cout << "\nYear:";
     cin >> Year;
+    cout << "\n__________________________________________________________\n";
+    cout << "\n                 student information";
+    cout << "\n__________________________________________________________\n";
     
-    cout << "_________________________________________________\n";
-    
-    cout << " student information" << "\n";
-    cout << "USSN:" << ussn << "\n";
-    cout << "Last_name:" << Last_name  << "\n";
-    cout << "First_name:" << First_name  << "\n";
-    cout << "Middle_name:" << Middle_name  << "\n";
+    cout << "\nUSSN:" << ussn << "\n";
+    cout << "Last name:" << Last_name  << "\n";
+    cout << "First name:" << First_name  << "\n";
+    cout << "Middle name:" << Middle_name  << "\n";
     cout << "AGE:" << AGE << "\n";
     cout << "Program:" << Program << "\n";
     cout << "Year:" << Year << "\n";
-    cout << "Welcome " << First_name << " " << 
-      cout << "__________________________________________________________\n";
+    
+    cout << "__________________________________________________________\n";
+    cout << "\nWelcome, " << First_name << " " << Middle_name << " " << Last_name << " to " << " AMACC LIPA! \n";
+    cout << "__________________________________________________________\n";
     return 0;
-}
